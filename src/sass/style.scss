@@ -4,8 +4,6 @@
 @import 'blocks/buttons';
 
 
-@import 'blocks/promo';
-@import 'blocks/header';
 
 * {
   font-family: 'Museo Sans Cyrl', sans-serif;
@@ -15,3 +13,14 @@
   max-width: 950px;
   margin: 0 auto;
 }
+
+
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/benefits.scss';
+@import 'blocks/consultation';
+@import 'blocks/forms';
+
+
+
+@import 'media/media';
