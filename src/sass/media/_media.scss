@@ -18,9 +18,15 @@
     &__content_active {
       grid-template-columns: repeat(2, 1fr);
     }
+    &__tab {
+      width: 200px;
+    }
   }
   .catalog-item {
     margin: 0 15px;
+  }
+  .reviews {
+    padding: 0 100px;
   }
 }
 
@@ -49,6 +55,29 @@
   .catalog {
     &__content_active {
       grid-template-columns: repeat(1, 1fr);
+    }
+    &__title {
+      font-size: 23px;
+    }
+    &__tabs {
+      display: block;
+    }
+    &__tab {
+      margin: 10px auto;
+    }
+  }
+  .reviews {
+    padding: 0 15px;
+    &__title {
+      font-size: 25px;
+
+    }
+  }
+  .reviews-item {
+    flex-direction: column;
+    row-gap: 15px;
+    &__img {
+      align-self: center;
     }
   }
 }
@@ -80,6 +109,22 @@
     &__item-text {
       width: 100%;
     }
+  }
+  .catalog {
+    &__title {
+      font-size: 18px;
+    }
+    &__tabs {
+      margin: 25px 0;
+    }
+  }
+  .catalog-item {
+    margin: 0;
+  }
+  .footer__info {
+    width: 370px;
+    height: 200px;
+    line-height: 5px;
   }
 }
 
@@ -139,5 +184,21 @@
   .carousel {
     padding: 30px 15px;
   }
-
+  .footer {
+    &__info {
+    width: 300px;
+    height: 120px;
+    padding: 15px 0 15px 0;
+    line-height: 0;
+    border-radius: 10px;
+    }
+    &__address {
+      font-size: 15px;
+      margin-bottom: 22px;
+    }
+    &__phone {
+      margin-bottom: 13px;
+      font-size: 15px;
+    }
+  }
 }
